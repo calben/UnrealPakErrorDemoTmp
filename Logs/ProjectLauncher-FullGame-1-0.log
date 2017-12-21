@@ -1,0 +1,915 @@
+Running AutomationTool...
+Parsing command line: -ScriptsForProject="C:/Users/calem/Documents/Unreal Projects/PakUtilities/PakUtilities.uproject" BuildCookRun -project="C:/Users/calem/Documents/Unreal Projects/PakUtilities/PakUtilities.uproject" -noP4 -clientconfig=Development -serverconfig=Development -nocompile -nocompileeditor -installed -ue4exe=UE4Editor-Cmd.exe -utf8output -platform=Win64 -targetplatform=Win64 -build -cook -map= -unversionedcookedcontent -pak -createreleaseversion=1.0 -distribution -compressed -stage -package -cmdline=" -Messaging" -addcmdline="-SessionId=99917519453C6449609B9D9E27D29121 -SessionOwner='calem' -SessionName='FullGame 1.0'"
+Setting up ProjectParams for C:\Users\calem\Documents\Unreal Projects\PakUtilities\PakUtilities.uproject
+********** BUILD COMMAND STARTED **********
+Running: D:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\UnrealBuildTool.exe PakUtilities Win64 Development -Project="C:\Users\calem\Documents\Unreal Projects\PakUtilities\PakUtilities.uproject"  "C:\Users\calem\Documents\Unreal Projects\PakUtilities\PakUtilities.uproject" -NoUBTMakefiles  -remoteini="C:\Users\calem\Documents\Unreal Projects\PakUtilities" -skipdeploy -noxge -generatemanifest -NoHotReload
+Took 2.0995803s to run UnrealBuildTool.exe, ExitCode=0
+Running: D:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\UnrealBuildTool.exe PakUtilities Win64 Development -Project="C:\Users\calem\Documents\Unreal Projects\PakUtilities\PakUtilities.uproject"  "C:\Users\calem\Documents\Unreal Projects\PakUtilities\PakUtilities.uproject" -NoUBTMakefiles  -remoteini="C:\Users\calem\Documents\Unreal Projects\PakUtilities" -skipdeploy -noxge -NoHotReload -ignorejunk
+  Parsing headers for PakUtilities
+    Running UnrealHeaderTool "C:\Users\calem\Documents\Unreal Projects\PakUtilities\PakUtilities.uproject" "C:\Users\calem\Documents\Unreal Projects\PakUtilities\Intermediate\Build\Win64\PakUtilities\Development\PakUtilities.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for PakUtilities in 12.747532 seconds
+  Performing 9 actions (4 in parallel)
+  [3/9] Resource PCLaunch.rc
+  PCH.UELinkerFixups.cpp
+  UELinkerFixups.cpp
+  SharedPCH.Engine.cpp
+  PakUtilitiesGameModeBase.cpp
+  PakUtilitiesGameModeBase.gen.cpp
+  PakUtilities.cpp
+  PakUtilities.init.gen.cpp
+  [9/9] Link PakUtilities.exe
+     Creating library C:\Users\calem\Documents\Unreal Projects\PakUtilities\Binaries\Win64\PakUtilities.lib and object C:\Users\calem\Documents\Unreal Projects\PakUtilities\Binaries\Win64\PakUtilities.exp
+  Total build time: 159.93 seconds (Local executor: 120.02 seconds)
+Took 160.2726729s to run UnrealBuildTool.exe, ExitCode=0
+********** BUILD COMMAND COMPLETED **********
+********** COOK COMMAND STARTED **********
+Running UE4Editor Cook for project C:\Users\calem\Documents\Unreal Projects\PakUtilities\PakUtilities.uproject
+Commandlet log file is D:\Program Files\Epic Games\UE_4.18\Engine\Programs\AutomationTool\Saved\Cook-2017.12.21-13.23.10.txt
+Running: D:\Program Files\Epic Games\UE_4.18\Engine\Binaries\Win64\UE4Editor-Cmd.exe "C:\Users\calem\Documents\Unreal Projects\PakUtilities\PakUtilities.uproject" -run=Cook  -NoLogTimes -TargetPlatform=WindowsNoEditor -fileopenlog -unversioned -createreleaseversion=1.0 -abslog="D:\Program Files\Epic Games\UE_4.18\Engine\Programs\AutomationTool\Saved\Cook-2017.12.21-13.23.10.txt" -stdout -CrashForUAT -unattended  -UTF8Output
+  LogInit: Display: Running engine for game: PakUtilities
+  LogInit: Display: RandInit(1922946398) SRandInit(1922946399).
+  LogModuleManager: Display: Found up-to-date module file C:/Users/calem/Documents/Unreal Projects/PakUtilities/Binaries/Win64/UE4Editor-PakUtilities.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+  LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+  LogShaderCompilers: Display: Using Local Shader Compiler.
+  LogDerivedDataCache: Display: Max Cache Size: 512 MB
+  LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/calem/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+  LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+  LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+  LogTemp: Display: Loaded TP MacClientTargetPlatform
+  LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+  LogTemp: Display: Loaded TP MacServerTargetPlatform
+  LogTemp: Display: Loaded TP MacTargetPlatform
+  LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+  LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+  LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+  LogTemp: Display: Loaded TP WindowsTargetPlatform
+  LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+  LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+  LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+  LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+  LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+  LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+  LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+  LogTemp: Display: Loaded TP AndroidTargetPlatform
+  LogTemp: Display: Loaded TP HTML5TargetPlatform
+  LogTemp: Display: Loaded TP IOSTargetPlatform
+  LogTemp: Display: Loaded TP TVOSTargetPlatform
+  LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+  LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+  LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+  LogTemp: Display: Loaded TP LinuxTargetPlatform
+  LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+  LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+  LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+  LogCook: Display: Mobile HDR setting 1
+  LogCook: Display: Creating asset registry
+  LogCook: Display: Cooked content cleared for platform WindowsNoEditor
+  LogCook: Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+  LogCook: Display: Sandbox cleanup took 0.091 seconds for platforms WindowsNoEditor  iterative false
+  LogCook: Display: Cooking /Engine/Tutorial/Foliage/Foliage_Intro_Tutorial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Foliage/Foliage_Intro_Tutorial.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for Foliage_Intro_Tutorial. Package will not be saved.
+  LogCook: Display: Cooking /Engine/EditorResources/S_Actor -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Actor.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Actor.uasset
+  LogCook: Display: Cooking /Engine/EngineResources/WhiteSquareTexture -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/WhiteSquareTexture.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/WhiteSquareTexture.uasset
+  LogCook: Display: Cooking /Engine/EngineResources/GradientTexture0 -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/GradientTexture0.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/GradientTexture0.uasset
+  LogCook: Display: Cooking /Engine/EngineResources/Black -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/Black.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/Black.uasset
+  LogCook: Display: Cooking /Engine/EngineMeshes/Sphere -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Sphere.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Sphere.uasset
+  LogCook: Display: Cooking /Engine/EngineSounds/Master -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Master.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Master.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Float -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Anim -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_ColorTrack -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Fade -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Director -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Event -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Move -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Slomo -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Sound -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/MAT_Groups_Toggle -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Vector -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/MAT_Groups_Visibility -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset
+  LogCook: Display: Cooking /Engine/EngineResources/DefaultTexture -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTexture.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTexture.uasset
+  LogCook: Display: Cooking /Engine/EngineResources/DefaultTextureCube -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTextureCube.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTextureCube.uasset
+  LogCook: Display: Cooking /Engine/EngineFonts/RobotoDistanceField -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoDistanceField.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoDistanceField.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/DefaultTextMaterialOpaque -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset
+  LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset
+  LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/WorldGridMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WorldGridMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WorldGridMaterial.uasset
+  LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/T_Default_Material_Grid_M -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/T_Default_Material_Grid_N -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/DefaultDeferredDecalMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/DefaultDiffuse -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDiffuse.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDiffuse.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/DefaultLightFunctionMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/DefaultPostProcessMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset
+  LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset
+  LogCook: Display: Cooking /Engine/EngineDamageTypes/DmgTypeBP_Environmental -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/SM_Sequencer_Node -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/Main -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/Main.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/Main.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/Xray -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/Xray.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/Xray.uasset
+  LogCook: Display: Cooking /Engine/VREditor/ViewportInteractionAssetContainerData -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/ViewportInteractionAssetContainerData.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for ViewportInteractionAssetContainerData. Package will not be saved.
+  LogCook: Display: Cooking /Engine/VREditor/SnapGrid/SnapGridMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/SnapGrid/SnapGridMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/SnapGrid/SnapGridMaterial.uasset
+  LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix.uasset
+  LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset
+  LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/SplitComponents -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/SplitComponents.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/SplitComponents.uasset
+  LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3 -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/TransformGizmoMaterial_Inst -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial_Inst.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial_Inst.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/TransformGizmoMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset
+  LogCook: Display: Cooking /Engine/VREditor/LaserPointer/VR_LaserPower_01 -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial_Inst -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial_Inst.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial_Inst.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for Foliage_Using_The_Tool_Tutorial. Package will not be saved.
+  LogCook: Display: Cooking /Engine/EditorResources/S_Trigger -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Trigger.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Trigger.uasset
+  LogCook: Display: Cooking /Engine/VREditor/SnapGrid/SnapGridPlaneMesh -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/SnapGrid/SnapGridPlaneMesh.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/SnapGrid/SnapGridPlaneMesh.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Drop_Item_From_ContentBrowser -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Drop_Item_From_ContentBrowser.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Drop_Item_From_ContentBrowser.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Gizmo_Handle_Clicked -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Gizmo_Handle_Clicked.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Gizmo_Handle_Clicked.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Object_PickUp -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Object_PickUp.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Object_PickUp.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Object_Snaps_To_Another_Actor -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Object_Snaps_To_Another_Actor.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Object_Snaps_To_Another_Actor.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Object_Snaps_To_Grid -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Object_Snaps_To_Grid.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Object_Snaps_To_Grid.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Scaling_Down -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Scaling_Down.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Scaling_Down.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Scaling_Up -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Scaling_Up.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Scaling_Up.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Selection_Changes -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Selection_Changes.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Selection_Changes.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/PlaneTranslationHandle -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/RotationHandleFull -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandleFull.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandleFull.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/RotationHandleIndicator -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandleIndicator.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandleIndicator.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/RotationHandleQuarter -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandleQuarter.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandleQuarter.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/StartRotationHandleIndicator -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/StartRotationHandleIndicator.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/StartRotationHandleIndicator.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/TransformGizmoFreeRotation -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoFreeRotation.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoFreeRotation.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/TranslateArrowHandle -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslateArrowHandle.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslateArrowHandle.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/UniformScaleHandle -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/UniformScaleHandle.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/UniformScaleHandle.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/BoundingBoxCorner -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/BoundingBoxEdge -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/SM_Sequencer_Key -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset
+  LogCook: Display: Cooking /Engine/EditorMeshes/Camera/SM_CraneRig_Base -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/Camera/MI_CineMat_Rig -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/Camera/CineMat -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/CineMat.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/CineMat.uasset
+  LogCook: Display: Cooking /Engine/EditorMeshes/Camera/SM_CraneRig_Arm -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset
+  LogCook: Display: Cooking /Engine/EditorMeshes/Camera/SM_CraneRig_Mount -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset
+  LogCook: Display: Cooking /Engine/EditorMeshes/Camera/SM_CraneRig_Body -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset
+  LogCook: Display: Cooking /Engine/EditorMeshes/Camera/SM_RailRig_Track -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset
+  LogCook: Display: Cooking /Engine/EditorMeshes/Camera/SM_RailRig_Mount -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset
+  LogCook: Display: Cooking /Engine/EngineFonts/Roboto -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Roboto.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Roboto.uasset
+  LogCook: Display: Cooking /Engine/EngineFonts/Faces/RobotoBold -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoBold.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoBold.uasset
+  LogCook: Display: Cooking /Engine/EngineFonts/Faces/RobotoBoldItalic -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset
+  LogCook: Display: Cooking /Engine/EngineFonts/Faces/RobotoItalic -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoItalic.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoItalic.uasset
+  LogCook: Display: Cooking /Engine/EngineFonts/Faces/RobotoLight -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoLight.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoLight.uasset
+  LogCook: Display: Cooking /Engine/EngineFonts/Faces/RobotoRegular -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoRegular.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoRegular.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Translucent -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Translucent_OneSided -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Opaque -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Opaque_OneSided -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Masked -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Masked_OneSided -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/ParticleSystems/PSysThumbnail_OOD -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset
+  LogCook: Display: Cooking /Engine/Maps/Templates/Thumbnails/Default -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/Default.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/Default.uasset
+  LogCook: Display: Cooking /Engine/EditorLandscapeResources/DataLayer -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/DataLayer.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/DataLayer.uasset
+  LogCook: Display: Cooking /AppleARKit/ARKitCameraMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/AppleARKit/Content/ARKitCameraMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/AppleARKit/Content/ARKitCameraMaterial.uasset
+  LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.uasset
+  LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4 -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/Foliage/Foliage_Settings_Tutorial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Foliage/Foliage_Settings_Tutorial.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for Foliage_Settings_Tutorial. Package will not be saved.
+  LogCook: Display: Cooking /Engine/Maps/Templates/Thumbnails/VR-Basic -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset
+  LogCook: Display: Cooking /OculusVR/Meshes/GearVrController -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset
+  LogCook: Display: Cooking /OculusVR/Materials/GearVRControllerMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset
+  LogCook: Display: Cooking /Engine/VREditor/VREditorAssetContainerData -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/VREditorAssetContainerData.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for VREditorAssetContainerData. Package will not be saved.
+  LogCook: Display: Cooking /Engine/VREditor/Fonts/VRText_RobotoLarge -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRText_RobotoLarge.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRText_RobotoLarge.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Fonts/VRTextMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRTextMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRTextMaterial.uasset
+  LogCook: Display: Cooking /Engine/VREditor/WorldMovementGrid/GridMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridMaterial.uasset
+  LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset
+  LogCook: Display: Cooking /Engine/VREditor/WorldMovementGrid/SimpleGrid -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/SimpleGrid.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/SimpleGrid.uasset
+  LogCook: Display: Cooking /Engine/VREditor/WorldMovementGrid/GridPostProcess -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridPostProcess.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridPostProcess.uasset
+  LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Devices/Oculus/OculusControllerMaterial_Inst -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMaterial_Inst.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMaterial_Inst.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Devices/Oculus/OculusControllerMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMaterial.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Devices/Vive/VivePreController_MasksB -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreController_MasksB.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreController_MasksB.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Devices/Vive/VivePreControllerMaterial_Inst -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMaterial_Inst.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMaterial_Inst.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Devices/Vive/VivePreControllerMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMaterial.uasset
+  LogCook: Display: Cooking /Engine/VREditor/LaserPointer/LaserPointerMaterialInst -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterialInst.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterialInst.uasset
+  LogCook: Display: Cooking /Engine/VREditor/LaserPointer/LaserPointerMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterial.uasset
+  LogCook: Display: Cooking /Engine/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Teleport/TeleportDirectionMaterial_Inst -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMaterial_Inst.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMaterial_Inst.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Teleport/TeleportDirectionMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMaterial.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Devices/Generic/GenericHMD -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMD.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMD.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Devices/Generic/GenericHMDMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMDMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMDMaterial.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Devices/Oculus/OculusControllerMesh -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMesh.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Oculus/OculusControllerMesh.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Devices/Vive/VivePreControllerMesh -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMesh.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerMesh.uasset
+  LogCook: Display: Cooking /Engine/VREditor/LaserPointer/CursorPointer -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset
+  LogCook: Display: Cooking /Engine/VREditor/LaserPointer/HoverMesh -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/HoverMesh.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/HoverMesh.uasset
+  LogCook: Display: Cooking /Engine/VREditor/LaserPointer/HoverMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/HoverMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/HoverMaterial.uasset
+  LogCook: Display: Cooking /Engine/VREditor/LaserPointer/TranslucentHoverMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentHoverMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentHoverMaterial.uasset
+  LogCook: Display: Cooking /Engine/VREditor/LaserPointer/LaserPointerMesh -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh.uasset
+  LogCook: Display: Cooking /Engine/VREditor/LaserPointer/LaserPointerMesh_End -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh_End.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh_End.uasset
+  LogCook: Display: Cooking /Engine/VREditor/LaserPointer/LaserPointerMesh_Start -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh_Start.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh_Start.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Click_on_Button_Cue -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Click_on_Button_Cue.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Click_on_Button_Cue.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Dockable_Window_Close -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Close.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Close.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Dockable_Window_Drop -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Drop.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Drop.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Dockable_Window_Open -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Open.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Open.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Dockable_Window_Pick_Up -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Pick_Up.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Dockable_Window_Pick_Up.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Floating_UI_Open-001 -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Floating_UI_Open-001.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Floating_UI_Open-001.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Radial_Menu_FadeOut -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Radial_Menu_FadeOut.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Radial_Menu_FadeOut.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Teleport_Mode_Entered -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Teleport_Mode_Entered.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Teleport_Mode_Entered.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Sounds/VR_teleport -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_teleport.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_teleport.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Teleport/TeleportDirectionMesh -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMesh.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Teleport/TeleportDirectionMesh.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/SM_Dialog_Close -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Dialog_Close.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Dialog_Close.uasset
+  LogCook: Display: Cooking /Engine/VREditor/TransformGizmo/SM_Dialog_Move -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Dialog_Move.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/SM_Dialog_Move.uasset
+  LogCook: Display: Cooking /Engine/VREditor/UI/SM_ContentWindow_01 -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_ContentWindow_01.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_ContentWindow_01.uasset
+  LogCook: Display: Cooking /Engine/VREditor/UI/M_ContentWindow -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/M_ContentWindow.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/M_ContentWindow.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Devices/Vive/UE4_Logo -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/UE4_Logo.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/UE4_Logo.uasset
+  LogCook: Display: Cooking /Engine/VREditor/UI/SM_Radial_Disk -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_Radial_Disk.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_Radial_Disk.uasset
+  LogCook: Display: Cooking /Engine/VREditor/UI/DiscMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/DiscMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/DiscMaterial.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/Paper2D/SpriteEditorTutorial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Paper2D/SpriteEditorTutorial.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for SpriteEditorTutorial. Package will not be saved.
+  LogCook: Display: Cooking /OculusVR/Textures/GearVRController_AO -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset
+  LogCook: Display: Cooking /OculusVR/Textures/GearVRController_Color -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset
+  LogCook: Display: Cooking /OculusVR/Textures/GearVRController_Normal -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Devices/Vive/T_VivePreController_EM -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/T_VivePreController_EM.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/T_VivePreController_EM.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Devices/Vive/VivePreController_MasksA -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreController_MasksA.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreController_MasksA.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Devices/Vive/VivePreControllerDiffuse -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerDiffuse.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerDiffuse.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Devices/Vive/VivePreControllerSpec -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerSpec.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/VivePreControllerSpec.uasset
+  LogCook: Display: Cooking /Engine/VREditor/UI/KeyDiskMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/KeyDiskMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/KeyDiskMaterial.uasset
+  LogCook: Display: Cooking /Engine/VREditor/UI/SM_Radial_Pointer -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_Radial_Pointer.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_Radial_Pointer.uasset
+  LogCook: Display: Cooking /Engine/VREditor/UI/ArrowMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/ArrowMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/ArrowMaterial.uasset
+  LogCook: Display: Cooking /Engine/VREditor/WorldMovementGrid/PlaneMesh -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/PlaneMesh.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/PlaneMesh.uasset
+  LogCook: Display: Cooking /Engine/EditorLandscapeResources/FlattenHeightMat -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/FlattenHeightMat.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/FlattenHeightMat.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Sounds/UI/Click_on_Button -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Click_on_Button.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/UI/Click_on_Button.uasset
+  LogCook: Display: Cooking /Engine/VREditor/FloatingText/LineSegmentCylinder -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineSegmentCylinder.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineSegmentCylinder.uasset
+  LogCook: Display: Cooking /Engine/VREditor/FloatingText/LineMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineMaterial.uasset
+  LogCook: Display: Cooking /Engine/VREditor/FloatingText/JointSphere -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/JointSphere.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/JointSphere.uasset
+  LogCook: Display: Cooking /Engine/VREditor/Fonts/TranslucentVRTextMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/TranslucentVRTextMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/TranslucentVRTextMaterial.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/Basics/LevelEditorAttract -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for LevelEditorAttract. Package will not be saved.
+  LogCook: Display: Cooking /Engine/Tutorial/Basics/LevelEditorOverview -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Basics/LevelEditorOverview.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for LevelEditorOverview. Package will not be saved.
+  LogCook: Display: Cooking /Engine/Tutorial/ContentIntroCurve -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/ContentIntroCurve.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/ContentIntroCurve.uasset
+  LogCook: Display: Cooking /Paper2D/MaskedUnlitSpriteMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset
+  LogCook: Display: Cooking /Paper2D/DefaultSpriteMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset
+  LogCook: Display: Cooking /Paper2D/DummySpriteTexture -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySpriteTexture.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for DummySpriteTexture. Package will not be saved.
+  LogCook: Display: Cooking /Paper2D/PlaceholderTextures/DummySpriteTexture -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset
+  LogCook: Display: Cooking /Paper2D/OpaqueUnlitSpriteMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset
+  LogCook: Display: Cooking /Paper2D/DefaultPaperTerrainMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset
+  LogCook: Display: Cooking /Paper2D/DummySprite -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset
+  LogCook: Display: Cooking /Engine/EngineMeshes/Cylinder -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cylinder.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cylinder.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/DefaultMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultMaterial.uasset
+  LogCook: Display: Cooking /Engine/EditorSounds/Notifications/CompileStart_Cue -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset
+  LogCook: Display: Cooking /Engine/EditorSounds/Notifications/CompileSuccess -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset
+  LogCook: Display: Cooking /Engine/EditorSounds/Notifications/CompileSuccess_Cue -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset
+  LogCook: Display: Cooking /Engine/EditorSounds/Notifications/CompileFailed_Cue -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset
+  LogCook: Display: Cooking /Engine/EditorSounds/Notifications/CompileFailed -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset
+  LogCook: Display: Cooking /MediaCompositing/DefaultMediaPlaneMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Media/MediaCompositing/Content/DefaultMediaPlaneMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Media/MediaCompositing/Content/DefaultMediaPlaneMaterial.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/RemoveSurfaceMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset
+  LogCook: Display: Cooking /Engine/EngineDebugMaterials/DebugMeshMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/M_InvalidLightmapSettings -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/InvalidLightmapSettings -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/GizmoMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/GizmoMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/GizmoMaterial.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/PhAT_JointLimitMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset
+  LogCook: Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/Good64x64TilingNoiseHighFreq -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/DefaultBokeh -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBokeh.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBokeh.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/DefaultPhysicalMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset
+  LogCook: Display: Cooking /Engine/EngineFonts/RobotoTiny -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoTiny.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoTiny.uasset
+  LogCook: Display: Cooking /Engine/EngineFonts/Faces/RobotoTiny -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoTiny.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Faces/RobotoTiny.uasset
+  LogCook: Display: Cooking /Engine/EditorResources/SequenceRecorder/Countdown -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset
+  LogCook: Display: Cooking /Engine/EditorResources/SequenceRecorder/RecordingIndicator -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/PersonaAnimEditorWalkthrough -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/PersonaAnimEditorWalkThrough.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for PersonaAnimEditorWalkThrough. Package will not be saved.
+  LogCook: Display: Cooking /Engine/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/PreintegratedSkinBRDF -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/MiniFont -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/MiniFont.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/MiniFont.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/WeightMapPlaceholderTexture -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/DefaultWhiteGrid -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset
+  LogCook: Display: Cooking /Engine/BasicShapes/Cube -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cube.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cube.uasset
+  LogCook: Display: Cooking /Engine/BasicShapes/Sphere -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Sphere.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Sphere.uasset
+  LogCook: Display: Cooking /Engine/BasicShapes/Cylinder -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cylinder.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cylinder.uasset
+  LogCook: Display: Cooking /Engine/BasicShapes/Cone -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cone.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cone.uasset
+  LogCook: Display: Cooking /Engine/BasicShapes/Plane -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Plane.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Plane.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/Foliage/TutorialAssets/Foliage -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon.uasset
+  LogCook: Display: Forcing save package ../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset because was already requeued once
+  LogCook: Display: Cooking /Engine/EngineMaterials/DefaultBloomKernel -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBloomKernel.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBloomKernel.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/MaterialEditorTutorial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/MaterialEditorTutorial.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for MaterialEditorTutorial. Package will not be saved.
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for BlueprintInterfacesEditorOverview. Package will not be saved.
+  LogCook: Display: Forcing save package ../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uasset because was already requeued once
+  LogCook: Display: Cooking /Engine/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for BlueprintEditorTutorial. Package will not be saved.
+  LogCook: Display: Cooking /Engine/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/StaticMeshEditorTutorial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/StaticMeshEditorTutorial.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for StaticMeshEditorTutorial. Package will not be saved.
+  LogCook: Display: Cooking /Engine/EngineMeshes/Cube -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cube.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cube.uasset
+  LogCook: Display: Cooking /Engine/MobileResources/HUD/DefaultVirtualJoysticks -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/Landscape/TutorialAssets/Landscape -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset
+  LogCook: Display: Cooking /Engine/MobileResources/HUD/VirtualJoystick_Background -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset
+  LogCook: Display: Cooking /Engine/MobileResources/HUD/VirtualJoystick_Thumb -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset
+  LogCook: Display: Cooking /Engine/Maps/Templates/Template_Default -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Template_Default.umap
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Template_Default.umap
+  LogCook: Display: Cooking /Engine/EngineSky/BP_Sky_Sphere -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/BP_Sky_Sphere.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/BP_Sky_Sphere.uasset
+  LogCook: Display: Cooking /Engine/EditorBlueprintResources/StandardMacros -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorBlueprintResources/StandardMacros.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorBlueprintResources/StandardMacros.uasset
+  LogCook: Display: Cooking /Engine/EngineSky/C_Sky_Cloud_Color -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset
+  LogCook: Display: Cooking /Engine/EngineSky/C_Sky_Horizon_Color -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset
+  LogCook: Display: Cooking /Engine/EngineSky/C_Sky_Zenith_Color -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset
+  LogCook: Display: Cooking /Engine/EngineSky/M_Sky_Panning_Clouds2 -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset
+  LogCook: Display: Cooking /Engine/EngineSky/SM_SkySphere -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/SM_SkySphere.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/SM_SkySphere.uasset
+  LogCook: Display: Cooking /Engine/MapTemplates/SM_Template_Map_Floor -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset
+  LogCook: Display: Cooking /Engine/EngineSky/T_Sky_Blue -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/T_Sky_Blue.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/T_Sky_Blue.uasset
+  LogCook: Display: Cooking /Engine/EngineSky/T_Sky_Clouds_M -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/T_Sky_Clouds_M.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/T_Sky_Clouds_M.uasset
+  LogCook: Display: Cooking /Engine/EngineSky/T_Sky_Stars -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/T_Sky_Stars.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/T_Sky_Stars.uasset
+  LogCook: Display: Cooking /Engine/Maps/Templates/Template_Default_BuiltData -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Template_Default_BuiltData.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Template_Default_BuiltData.uasset
+  LogCook: Display: Cooking /Engine/EngineMaterials/EditorBrushMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/EditorBrushMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/EditorBrushMaterial.uasset
+  LogCook: Display: Forcing save package ../../../Engine/Content/EditorResources/EmptyActor.uasset because was already requeued once
+  LogCook: Display: Cooking /Engine/EditorResources/EmptyActor -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/EmptyActor.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/EmptyActor.uasset
+  LogCook: Display: Cooking /Engine/EditorMaterials/PreviewShadowIndicatorMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset
+  LogCook: Display: Cooking /Engine/EditorResources/LightIcons/S_LightError -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/LightIcons/S_LightError.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/LightIcons/S_LightError.uasset
+  LogCook: Display: Forcing save package ../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset because was already requeued once
+  LogCook: Display: Cooking /Engine/EditorMaterials/PreviewShadowIndicator -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset
+  LogCook: Display: Cooking /Engine/EngineDebugMaterials/DebugEditorMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset
+  LogCook: Display: Cooking /Engine/EngineDebugMaterials/ClothMaterial_WF -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset
+  LogCook: Display: Cooking /Engine/EngineDebugMaterials/ClothMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/ClothMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/ClothMaterial.uasset
+  LogCook: Display: Cooking /Engine/EngineDebugMaterials/BoneWeightMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset
+  LogCook: Display: Forcing save package ../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset because was already requeued once
+  LogCook: Display: Cooking /Engine/EngineDebugMaterials/HeatmapGradient -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset
+  LogCook: Display: Cooking /Engine/EngineDebugMaterials/GeomMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/GeomMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/GeomMaterial.uasset
+  LogCook: Display: Cooking /Engine/MobileResources/HUD/LeftVirtualJoystickOnly -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset
+  LogCook: Display: Cooking /Engine/EditorResources/BSPVertex -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/BSPVertex.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/BSPVertex.uasset
+  LogCook: Display: Cooking /Engine/MobileResources/HUD/T_Castle_ThumbstickOutter -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset
+  LogCook: Display: Cooking /Engine/MobileResources/HUD/T_Castle_ThumbstickInner -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset
+  LogCook: Display: Cooking /Engine/MobileResources/HUD/MobileHUDDirectionStick -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset
+  LogCook: Display: Cooking /Engine/MobileResources/HUD/MobileHUDDirectionPad3 -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset
+  LogCook: Display: Cooking /Engine/MobileResources/HUD/MobileHUDDirectionPad2 -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset
+  LogCook: Display: Cooking /Engine/MobileResources/HUD/MobileHUDDirectionPad -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset
+  LogCook: Display: Cooking /Engine/MobileResources/HUD/MobileHUDButtonFire -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset
+  LogCook: Display: Cooking /Engine/MobileResources/HUD/MobileHUDButton3 -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset
+  LogCook: Display: Cooking /Engine/MobileResources/HUD/MobileHUDButton2_on -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset
+  LogCook: Display: Cooking /Engine/MobileResources/HUD/MobileHUDButton2_off -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset
+  LogCook: Display: Cooking /Engine/MobileResources/HUD/MobileHUDButton1_on -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset
+  LogCook: Display: Cooking /Engine/MobileResources/HUD/MobileHUDButton1_off -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset
+  LogCook: Display: Cooking /Engine/Maps/Entry -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Entry.umap
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Entry.umap
+  LogCook: Display: Cooking /Engine/MobileResources/HUD/AnalogHat -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/AnalogHat.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/AnalogHat.uasset
+  LogCook: Display: Cooking /Engine/MobileResources/T_MobileMenu2 -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/T_MobileMenu2.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/T_MobileMenu2.uasset
+  LogCook: Display: Cooking /Engine/MobileResources/T_MobileControls_texture -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/T_MobileControls_texture.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/T_MobileControls_texture.uasset
+  LogCook: Display: Cooking /TestModule/Maps/Root -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/PakUtilities/Plugins/TestModule/Content/Maps/Root.umap
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/PakUtilities/Plugins/TestModule/Content/Maps/Root.umap
+  LogCook: Display: Cooking /TestModule/Characters/Cube -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/PakUtilities/Plugins/TestModule/Content/Characters/Cube.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/PakUtilities/Plugins/TestModule/Content/Characters/Cube.uasset
+  LogCook: Display: Cooking /Engine/BasicShapes/BasicShapeMaterial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/BasicShapeMaterial.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/BasicShapeMaterial.uasset
+  LogCook: Display: Cooking /TestModule/Maps/Root_BuiltData -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/PakUtilities/Plugins/TestModule/Content/Maps/Root_BuiltData.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/PakUtilities/Plugins/TestModule/Content/Maps/Root_BuiltData.uasset
+  LogCook: Display: Cooking /Game/Maps/PakLoading -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/PakUtilities/Content/Maps/PakLoading.umap
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/PakUtilities/Content/Maps/PakLoading.umap
+  LogCook: Display: Cooking /Game/UI/PakListing -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/PakUtilities/Content/UI/PakListing.uasset
+  LogUMG: Display: Widget Class PakListing_C - Template Initialized.
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/PakUtilities/Content/UI/PakListing.uasset
+  LogCook: Display: Cooking /Game/UI/PakItemButton -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/PakUtilities/Content/UI/PakItemButton.uasset
+  LogUMG: Display: Widget Class PakItemButton_C - Template Initialized.
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/PakUtilities/Content/UI/PakItemButton.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/Landscape/Landscape_Manage_Mode -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Landscape/Landscape_Manage_Mode.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for Landscape_Manage_Mode. Package will not be saved.
+  LogCook: Display: Cooking /Engine/Tutorial/Landscape/Landscape_Sculpt_Mode -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Landscape/Landscape_Sculpt_Mode.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for Landscape_Sculpt_Mode. Package will not be saved.
+  LogCook: Display: Cooking /Engine/Tutorial/Landscape/Landscape_Painting_Mode -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Landscape/Landscape_Painting_Mode.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for Landscape_Painting_Mode. Package will not be saved.
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/PersonaAnimBlueprintEditorWalkthrough.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for PersonaAnimBlueprintEditorWalkthrough. Package will not be saved.
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for BlueprintMacroLibrariesEditorOverview. Package will not be saved.
+  LogCook: Display: Forcing save package ../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintMacroLibrary_64x.uasset because was already requeued once
+  LogCook: Display: Cooking /Engine/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintMacroLibrary_64x -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintMacroLibrary_64x.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintMacroLibrary_64x.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for Tutorial_BP_MacroLib. Package will not be saved.
+  LogCook: Display: Cooking /Engine/Tutorial/Paper2D/FlipbookEditorTutorial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Paper2D/FlipbookEditorTutorial.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for FlipbookEditorTutorial. Package will not be saved.
+  LogCook: Display: Forcing save package ../../../Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset because was already requeued once
+  LogCook: Display: Cooking /Engine/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/Landscape/LandscapeWalkThrough -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Landscape/LandscapeWalkThrough.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for LandscapeWalkThrough. Package will not be saved.
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/ParticleSystemEditorTutorial -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/ParticleSystemEditorTutorial.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for ParticleSystemEditorTutorial. Package will not be saved.
+  LogCook: Display: Cooking /Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset
+  LogSavePackage: Display: No exports found (or all exports are editor-only) for LevelBlueprintEditorOverview. Package will not be saved.
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/TutorialParticleSystem -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialParticleSystem.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialParticleSystem.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/M_smoke_subUV_blackbody -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/M_smoke_subUV_blackbody.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/M_smoke_subUV_blackbody.uasset
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/T_SmokeSubUV_8X8 -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/T_SmokeSubUV_8X8.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/T_SmokeSubUV_8X8.uasset
+  LogCook: Display: Forcing save package ../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/T_soft_smoke.uasset because was already requeued once
+  LogCook: Display: Cooking /Engine/Tutorial/SubEditors/TutorialAssets/T_soft_smoke -> C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/T_soft_smoke.uasset
+  LogSavePackage: Display: Finished SavePackage C:/Users/calem/Documents/Unreal Projects/PakUtilities/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/SubEditors/TutorialAssets/T_soft_smoke.uasset
+  LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+  LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+  LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+  LogAssetRegistryGenerator: Display: Saving asset registry.
+  LogAssetRegistryGenerator: Display: Generated asset registry num assets 279, size is 144.21kb
+  LogAssetRegistryGenerator: Display: Done saving asset registry.
+  LogCook: Display: Cook by the book total time in tick 6.426988s total time 22.542149
+  LogCook: Display: Peak Used virtual 827 Peak Used phsical 873
+  LogCook: Display: Hierarchy Timer Information:
+  LogCook: Display:   Root: 0.000000ms
+  LogCook: Display:   StartCookByTheBookTime: 15781.568384ms
+  LogCook: Display:     GenerateAssetRegistryTime: 14376.454223ms
+  LogCook: Display:     CleanSandboxTime: 90.497376ms
+  LogCook: Display:       ProcessingAccessedStrings: 18.521328ms
+  LogCook: Display:     CollectFilesToCook: 309.195936ms
+  LogCook: Display:       CookModificationDelegate: 5.425589ms
+  LogCook: Display:       GetObjectsWithOuter: 0.051055ms
+  LogCook: Display:       GeneratePackageNames: 6.474754ms
+  LogCook: Display:         UnsolicitedPackageAlreadyCooked: 0.028869ms
+  LogCook: Display:         PackageCast: 0.006247ms
+  LogCook: Display:         FullGCAssetsContains: 0.004757ms
+  LogCook: Display:         AddUnassignedPackageToManifest: 0.000000ms
+  LogCook: Display:         GetCachedName: 6.318927ms
+  LogCook: Display:         AddToPackageList: 6.236257ms
+  LogCook: Display:     GenerateLongPackageName: 0.631979ms
+  LogCook: Display:   TickCookOnTheSide: 6417.789083ms
+  LogCook: Display:     ShouldCook: 0.030987ms
+  LogCook: Display:     LoadPackage: 2242.925547ms
+  LogCook: Display:     CallBeginCacheForCookedPlatformData: 298.675857ms
+  LogCook: Display:     PostLoadPackageFixup: 4.923796ms
+  LogCook: Display:     UnsolicitedMarkup: 4.566068ms
+  LogCook: Display:       GetObjectsWithOuter: 0.677198ms
+  LogCook: Display:       GeneratePackageNames: 3.458152ms
+  LogCook: Display:         UnsolicitedPackageAlreadyCooked: 2.240749ms
+  LogCook: Display:         PackageCast: 0.276972ms
+  LogCook: Display:         FullGCAssetsContains: 0.260968ms
+  LogCook: Display:         AddUnassignedPackageToManifest: 0.000000ms
+  LogCook: Display:         GetCachedName: 0.741387ms
+  LogCook: Display:         AddToPackageList: 0.253433ms
+  LogCook: Display:     SavingPackages: 3854.329942ms
+  LogCook: Display:       PrecachePlatformDataForNextPackage: 7.869255ms
+  LogCook: Display:       PrecachePlatformDataForNextNextPackage: 1824.978946ms
+  LogCook: Display:       SaveCookedPackage: 1975.296371ms
+  LogCook: Display:         LoadPackage: 0.937602ms
+  LogCook: Display:         GEditorSavePackage: 1844.902430ms
+  LogCook: Display:           ConvertingBlueprints: 84.323870ms
+  LogCook: Display:       ClearAllCachedCookedPlatformData: 1.877712ms
+  LogCook: Display:       EnqueueUnsavedPackages: 0.121804ms
+  LogCook: Display:   GeneratingBlueprintAssets: 65.870710ms
+  LogCook: Display:   SavingCurrentIniSettings: 46.653586ms
+  LogCook: Display:     ProcessingAccessedStrings: 14.530357ms
+  LogCook: Display:   SavingAssetRegistry: 113.187268ms
+  LogCook: Display:     BuildChunkManifest: 31.589715ms
+  LogCook: Display:     SaveManifests: 3.205832ms
+  LogCook: Display:     SaveRealAssetRegistry: 56.258319ms
+  LogCook: Display: IntStats:
+  LogCook: Display:   LoadPackage=56
+  LogCook: Display:   SavedPackage=303
+  LogSavePackage: Display: Took 0.022627s to verify the EDL loading graph.
+  LogCookCommandlet: Display: Misc Cook Stats
+  LogCookCommandlet: Display: ===============
+  LogCookCommandlet: Display: ShaderCompiler
+  LogCookCommandlet: Display:     BlockingTimeSec=0.000001
+  LogCookCommandlet: Display:     AsyncCompileTimeSec=0.000000
+  LogCookCommandlet: Display:     GlobalBeginCompileShaderTimeSec=0.000000
+  LogCookCommandlet: Display:     GlobalBeginCompileShaderCalls=0
+  LogCookCommandlet: Display:     ProcessAsyncResultsTimeSec=0.000112
+  LogCookCommandlet: Display: GlobalShader.Misc
+  LogCookCommandlet: Display:     ShadersCompiled=0
+  LogCookCommandlet: Display: MeshMaterial.Misc
+  LogCookCommandlet: Display:     ShadersCompiled=0
+  LogCookCommandlet: Display: MaterialShader.Misc
+  LogCookCommandlet: Display:     ShadersCompiled=0
+  LogCookCommandlet: Display: Package.Load
+  LogCookCommandlet: Display:     NumPackagesLoaded=169
+  LogCookCommandlet: Display:     LoadPackageTimeSec=10.337637
+  LogCookCommandlet: Display: Package.Save
+  LogCookCommandlet: Display:     NumPackagesSaved=303
+  LogCookCommandlet: Display:     SavePackageTimeSec=1.510198
+  LogCookCommandlet: Display:     TagPackageExportsPresaveTimeSec=0.605791
+  LogCookCommandlet: Display:     TagPackageExportsTimeSec=0.092510
+  LogCookCommandlet: Display:     ResetLoadersForSaveTimeSec=0.078822
+  LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithOuter=0.002670
+  LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithMarks=0.000329
+  LogCookCommandlet: Display:     SerializeImportsTimeSec=0.000000
+  LogCookCommandlet: Display:     SortExportsSeekfreeInnerTimeSec=0.131545
+  LogCookCommandlet: Display:     SerializeExportsTimeSec=0.134666
+  LogCookCommandlet: Display:     SerializeBulkDataTimeSec=0.020234
+  LogCookCommandlet: Display:     AsyncWriteTimeSec=0.001213
+  LogCookCommandlet: Display:     MBWritten=72.599163
+  LogCookCommandlet: Display:
+  LogCookCommandlet: Display: Cook Profile
+  LogCookCommandlet: Display: ============
+  LogCookCommandlet: Display:  0.CookWallTimeSec=80.756388
+  LogCookCommandlet: Display:  0. 0.StartupWallTimeSec=58.102560
+  LogCookCommandlet: Display:  0. 1.CookByTheBookTimeSec=22.622397
+  LogCookCommandlet: Display:  0. 1. 0.StartCookByTheBookTimeSec=15.821043
+  LogCookCommandlet: Display:  0. 1. 0. 0.GameCookModificationDelegateTimeSec=0.005428
+  LogCookCommandlet: Display:  0. 1. 1.TickCookOnTheSideTimeSec=6.698915
+  LogCookCommandlet: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=2.244203
+  LogCookCommandlet: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=1.976351
+  LogCookCommandlet: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+  LogCookCommandlet: Display:  0. 1. 1. 2.TickCookOnTheSideBeginPackageCacheForCookedPlatformDataTimeSec=2.130514
+  LogCookCommandlet: Display:  0. 1. 1. 3.TickCookOnTheSideFinishPackageCacheForCookedPlatformDataTimeSec=0.035413
+  LogCookCommandlet: Display:  0. 1. 2.TickLoopGCTimeSec=0.000000
+  LogCookCommandlet: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.000262
+  LogCookCommandlet: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.000016
+  LogCookCommandlet: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.023918
+  LogCookCommandlet: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.000004
+  LogCookCommandlet: Display:
+  LogCookCommandlet: Display: DDC Summary Stats
+  LogCookCommandlet: Display: =================
+  LogCookCommandlet: Display: TotalGetHits  =       555
+  LogCookCommandlet: Display: TotalGets     =       555
+  LogCookCommandlet: Display: TotalHitPct   =  1.000000
+  LogCookCommandlet: Display: LocalHitPct   =  0.000000
+  LogCookCommandlet: Display: SharedHitPct  =  0.000000
+  LogCookCommandlet: Display: OtherHitPct   =  1.000000
+  LogCookCommandlet: Display: MissPct       =  0.000000
+  LogCookCommandlet: Display:
+  LogCookCommandlet: Display: DDC Resource Stats
+  LogCookCommandlet: Display: =======================================================================================================
+  LogCookCommandlet: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+  LogCookCommandlet: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+  LogCookCommandlet: Display: MaterialShader                                  1.34                   1.34             0          7.51
+  LogCookCommandlet: Display: StaticMesh                                      1.01                   1.01             0          7.47
+  LogCookCommandlet: Display: Texture (Streaming)                             0.60                   0.00             0         31.96
+  LogCookCommandlet: Display: PhysX (BodySetup)                               0.43                   0.43             0          4.17
+  LogCookCommandlet: Display: NavCollision                                    0.27                   0.27             0          0.06
+  LogCookCommandlet: Display: Texture (Inline)                                0.20                   0.20             0         33.94
+  LogCookCommandlet: Display: SoundWave                                       0.15                   0.15             0          0.40
+  LogCookCommandlet: Display: GlobalShader                                    0.08                   0.08             0          2.34
+  LogCookCommandlet: Display: ReflectionCapture                               0.00                   0.00             0          0.50
+  LogCookCommandlet: Display: DistanceField                                   0.00                   0.00             0          0.00
+  LogInit: Display:
+  LogInit: Display: Success - 0 error(s), 0 warning(s)
+  LogInit: Display:
+
+  Execution of commandlet took:  22.73 seconds
+  [OVRPlugin][ERROR] ovr_Create(&session, &luid) failed: ovr_Create: No HMD attached.
+  [OVRPlugin][INFO] [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+Took 89.2011892s to run UE4Editor-Cmd.exe, ExitCode=0
+********** COOK COMMAND COMPLETED **********
+********** STAGE COMMAND STARTED **********
+Creating Staging Manifest...
+Cleaning Stage Directory: C:\Users\calem\Documents\Unreal Projects\PakUtilities\Saved\StagedBuilds\WindowsNoEditor
+Creating pak using staging manifest.
+Running UnrealPak *******
+Running: D:\Program Files\Epic Games\UE_4.18\Engine\Binaries\Win64\UnrealPak.exe "C:\Users\calem\Documents\Unreal Projects\PakUtilities\Saved\StagedBuilds\WindowsNoEditor\PakUtilities\Content\Paks\PakUtilities-WindowsNoEditor.pak" -create="C:\Users\calem\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Program+Files+Epic+Games+UE_4.18\PakList_PakUtilities-WindowsNoEditor.txt" -encryptionini -enginedir="D:\Program Files\Epic Games\UE_4.18\Engine" -projectdir="C:\Users\calem\Documents\Unreal Projects\PakUtilities" -platform=Windows -abslog="C:\Users\calem\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Program+Files+Epic+Games+UE_4.18\PakLog_PakUtilities-WindowsNoEditor.log" -installed -order="C:\Users\calem\Documents\Unreal Projects\PakUtilities\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log" -UTF8Output -multiprocess -patchpaddingalign=2048
+  LogPakFile: Display: Loading response file C:\Users\calem\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Program+Files+Epic+Games+UE_4.18\PakList_PakUtilities-WindowsNoEditor.txt
+  LogPakFile: Display: Added 1403 entries to add to pak file.
+  LogPakFile: Display: Loading pak order file C:\Users\calem\Documents\Unreal Projects\PakUtilities\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log...
+  LogPakFile: Display: Finished loading pak order file C:\Users\calem\Documents\Unreal Projects\PakUtilities\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log.
+  LogPakFile: Display: Collecting files to add to pak file...
+  LogPakFile: Display: Collected 1403 files in 0.01s.
+  LogPakFile: Display: Added 1403 files, 29058649 bytes total, time 5.49s.
+  LogPakFile: Display: Compression summary: 27.74% of original size. Compressed Size 27285840 bytes, Original Size 98347035 bytes.
+  LogPakFile: Display: Unreal pak executed in 5.544612 seconds
+Took 6.1729902s to run UnrealPak.exe, ExitCode=0
